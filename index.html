@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Weather APP IDD ">
+    <meta name="author" content="Doniyorbek Islomov">
+    <meta name="keywords" content="Weather">
+    <link rel="stylesheet" href="./weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web Weather APP IDD</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Hudud" class="input-box">
+                <button class="fa fa-search" id="searchBtn"></button>
+            </div>
+        </div>
+        <div class="weather-body">
+            <img src="./img/weather.png" alt="Weather Image" class="weather-img">
+            <div class="weather-box">
+                <p class="temperatura">---</p>
+                <p class="description">---</p>
+            </div>
+
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <img src="./img/humidity.png" alt="humidity" class="humidity">
+                    <div class="text">
+                        <span id="humidity">---</span>
+                        <p>Namlik</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <img src="./img/wind.png" alt="wind" class="wind">
+                    <div class="text">
+                        <span id="wind-speed">---</span>
+                        <p>Shamol tezligi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./weather.js"></script>
+</body>
+</html>
